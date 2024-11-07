@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 84px;
+  border: 1px solid;
+  align-items: center;
+  padding: 0px 80px;
+  flex-wrap: wrap;
+}
+
+nav {
+  display: flex;
+}
+
+nav > .nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 588px;
+  margin-right: 60px;
+}
+
+nav > .nav-links > li>a{
+    color: black;
+}
+
+nav > div > .login {
+  font-size: 14px;
+  line-height: 20px;
+  color: #4caf4f;
+  background-color: transparent;
+}
+
+nav > div > button {
+  color: white;
+  background-color: #4caf4f;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 15px;
+}
